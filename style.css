@@ -1,3 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(201, 192, 192);
+}
 
+header {
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
 
+header h1 {
+  font-size: 30px;
+}
 
+h2 {
+  font-size: 16px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+div h3 {
+  display: flex;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+div figure {
+  background-color: rgb(255, 255, 255);
+}
+img {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  display: flex;
+}
+
+figcaption {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-size: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+div ul {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+li {
+  margin-bottom: 15px;
+  align-items: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+div p {
+  margin-left: 22rem;
+  margin-right: 22rem;
+}
+footer {
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
