@@ -22,7 +22,6 @@ body {
   background-position: center;
   height: 100vh;
   display: flex;
-  align-content: center;
   justify-content: center;
 }
 .entente {
@@ -37,7 +36,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  gap: 760px;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 .namesite {
   color: var(--text-light);
@@ -47,7 +47,6 @@ body {
 }
 .menu {
   display: flex;
-  align-content: center;
   gap: 20px;
 }
 .menu a {
@@ -73,7 +72,11 @@ body {
 }
 .slide-text {
   display: flex;
-  padding: 5px 440px;
+  max-width: 500px;
+  text-align: center;
+  margin: 100px auto 0;
+  padding: 5px 50px;
+  text-align: center;
   margin-top: 100px;
   color: white;
   font-size: 2rem;
@@ -110,7 +113,9 @@ section h2 {
   height: 50%;
 }
 .image1 img {
-  height: 545px;
+   width: 100%;
+  height: auto;
+  display: block;
 }
 .sect1 h2 {
   font-weight: bold;
@@ -129,7 +134,7 @@ section h2 {
 .sect1 a {
   text-align: left;
   padding: 0px 20px;
-  transition: background 0.3s;
+  transition: color 0.3s;
   cursor: pointer;
   color: black;
   font-weight: bold;
@@ -159,13 +164,12 @@ section h2 {
 }
 
 .service h3 {
-  font-size: 24px;
+  font-size: 15px;
   margin-bottom: 15px;
   font-weight: bold;
 }
 
 .service p {
-  font-size: 15px;
   font-size: 1rem;
 }
 
@@ -229,8 +233,9 @@ section h2 {
   align-content: center;
   justify-content: center;
   flex: 1;
-  object-fit: cover;
   overflow: hidden;
+  flex-direction: row;
+  align-items: center;
 }
 footer {
   background-color: #90d4c5;
@@ -268,7 +273,7 @@ footer {
 .end-line {
   font-size: 20px;
   color: #2c7566;
-  font-weight: 70;
+  font-weight: 700;
 }
 .end-line a {
   color: #195e5a;
